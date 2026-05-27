@@ -1,0 +1,407 @@
+[
+  {
+    "id": "cell-jig",
+    "visible": true,
+    "status": "active",
+    "order": 1,
+    "name": "CELL JIG",
+    "subtitle": "Evaluate a new material",
+    "category": "Cell fixture",
+    "tags": [
+      "Cell Jig",
+      "Pressure",
+      "Electrochemical Test"
+    ],
+    "inquirySubject": "[TeraLeader] CELL JIG 제품 문의",
+    "summary": "다양한 셀 크기와 소재에 대응하는 연구용 셀 지그입니다.",
+    "description": "빠른 조립과 분해가 가능하며 다양한 셀 사이즈와 소재 조건에 맞춰 구성할 수 있습니다. 압력 제어 시스템과 함께 전기화학 소재 평가 환경을 구성할 수 있습니다.",
+    "image": "/images/products/cell-jig-clean.png",
+    "cardImage": "/images/products/cell-jig-card.gif",
+    "features": [
+      "Fast and easy assembly / disassembly",
+      "Various cell sizes and materials available",
+      "Pressure control system support"
+    ],
+    "specs": [
+      {
+        "name": "Operating Force",
+        "value": "500Kgf"
+      },
+      {
+        "name": "Temperature Range",
+        "value": "up to 120°C"
+      },
+      {
+        "name": "High Insulating Resistance",
+        "value": "100M"
+      }
+    ],
+    "downloads": [
+      {
+        "label": "제품 자료",
+        "file": "/downloads/Celljig.zip"
+      },
+      {
+        "label": "매뉴얼",
+        "file": "/downloads/DIGITAL_LOADCELL_INDICATOR_AND_JIG_MANUAL.pdf"
+      }
+    ]
+  },
+  {
+    "id": "oven",
+    "visible": true,
+    "status": "active",
+    "order": 2,
+    "name": "OVEN",
+    "subtitle": "Maintain temperature",
+    "category": "Temperature control",
+    "tags": [
+      "Oven",
+      "Temperature",
+      "Cell Jig"
+    ],
+    "inquirySubject": "[TeraLeader] OVEN 제품 문의",
+    "summary": "셀 지그 실험과 연계 가능한 온도 유지 장비입니다.",
+    "description": "Rail type 및 Load cell type 셀 지그와 호환되며, 열처리와 5-probe 측정을 같은 환경에서 수행할 수 있도록 설계되었습니다.",
+    "image": "/images/products/oven-clean.png",
+    "cardImage": "/images/products/oven-card.gif",
+    "features": [
+      "Compatible with rail type and load cell type cell jig",
+      "Heat treatment and 5-probe measurement at once"
+    ],
+    "specs": [
+      {
+        "name": "Chamber Volume",
+        "value": "5L"
+      },
+      {
+        "name": "Temperature",
+        "value": "RT+10 ~ 100°C"
+      },
+      {
+        "name": "Power Requirement",
+        "value": "1kW"
+      }
+    ],
+    "downloads": [
+      {
+        "label": "제품 자료",
+        "file": "/downloads/Oven.zip"
+      },
+      {
+        "label": "사양서",
+        "file": "/downloads/CELL_JIG_OVEN.pdf"
+      }
+    ]
+  },
+  {
+    "id": "digital-press",
+    "visible": true,
+    "status": "active",
+    "order": 3,
+    "name": "DIGITAL PRESS",
+    "subtitle": "Maintain constant pressure",
+    "category": "Pressure control",
+    "tags": [
+      "Digital Press",
+      "Pressure",
+      "Servo"
+    ],
+    "inquirySubject": "[TeraLeader] DIGITAL PRESS 제품 문의",
+    "summary": "정밀 압력 제어가 가능한 디지털 전동 프레스입니다.",
+    "description": "배터리 소재와 셀 평가 환경에서 일정한 압력 조건을 유지하도록 설계된 연구용 장비입니다. 압력, 이동 거리, 열처리, 5-probe 측정을 하나의 실험 환경에서 구성할 수 있습니다.",
+    "image": "/images/products/digital-press-clean.png",
+    "cardImage": "/images/products/digital-press-card.gif",
+    "features": [
+      "Press, measuring distance, heat treatment and 5-probe measurement support",
+      "Bluetooth communication option",
+      "Constant pressure control",
+      "Research cell testing support"
+    ],
+    "specs": [
+      {
+        "name": "Max. Pressure",
+        "value": "40,000N"
+      },
+      {
+        "name": "Min. Force Resolution",
+        "value": "10N"
+      },
+      {
+        "name": "Sample Moving Space",
+        "value": "70 x 50 x 80 mm (W x D x H)"
+      },
+      {
+        "name": "Servo Actuator Moving Distance",
+        "value": "30mm"
+      },
+      {
+        "name": "Min. Distance Resolution",
+        "value": "1um"
+      },
+      {
+        "name": "Max. Velocity",
+        "value": "20 mm/min"
+      },
+      {
+        "name": "Operating Temperature",
+        "value": "10°C option ~ 80°C"
+      },
+      {
+        "name": "Temperature Resolution",
+        "value": "0.1°C"
+      },
+      {
+        "name": "Dimensions",
+        "value": "270 x 350 x 280 mm (W x D x H)"
+      },
+      {
+        "name": "Weight",
+        "value": "24kg"
+      }
+    ],
+    "downloads": [
+      {
+        "label": "제품 자료",
+        "file": "/downloads/Digital_Press.zip"
+      },
+      {
+        "label": "사양서",
+        "file": "/downloads/DIGITAL_ELECTRIC_PRESS.pdf"
+      },
+      {
+        "label": "매뉴얼",
+        "file": "/downloads/DIGITAL_ELECTRIC_PRESS_MANUAL.zip"
+      }
+    ]
+  },
+  {
+    "id": "ampoule-furnace",
+    "visible": true,
+    "status": "active",
+    "order": 4,
+    "name": "AMPOULE FURNACE",
+    "subtitle": "Thermal annealing",
+    "category": "Thermal process",
+    "tags": [
+      "Ampoule Furnace",
+      "Annealing",
+      "Thermal"
+    ],
+    "inquirySubject": "[TeraLeader] AMPOULE FURNACE 제품 문의",
+    "summary": "Ampoule 기반 열처리와 annealing 실험을 위한 장비입니다.",
+    "description": "고온 열처리, 분위기 제어, 소재 반응 실험에 활용할 수 있는 연구용 furnace입니다. Ampoule-type 설계로 소재 사용량을 줄이고 빠른 열처리와 균일한 회전 열처리를 지원합니다.",
+    "image": "/images/products/ampoule-furnace-clean.png",
+    "cardImage": "/images/products/ampoule-furnace-card.gif",
+    "features": [
+      "Ampoule-type design",
+      "Reduced material usage",
+      "Rapid heat annealing",
+      "Uniform rotational heat treatment"
+    ],
+    "specs": [
+      {
+        "name": "Temperature Range",
+        "value": "RT +20 ~ 800°C, option 1050°C"
+      },
+      {
+        "name": "Dimension",
+        "value": "210 x 125 x 180 mm (W x D x H)"
+      },
+      {
+        "name": "Max. Temperature Increase",
+        "value": "200°C/min"
+      },
+      {
+        "name": "Max. Temperature Decrease",
+        "value": "40°C/min (~200°C)"
+      },
+      {
+        "name": "Temperature Resolution",
+        "value": "+/- 0.1°C"
+      },
+      {
+        "name": "Ampoule Diameter",
+        "value": "OD 14mm"
+      },
+      {
+        "name": "Temperature Uniform Zone",
+        "value": "20mm"
+      },
+      {
+        "name": "Power Requirement",
+        "value": "1kW"
+      }
+    ],
+    "downloads": [
+      {
+        "label": "제품 자료",
+        "file": "/downloads/Ampoule_furnce.zip"
+      },
+      {
+        "label": "사양서",
+        "file": "/downloads/AMPOULE_FURNACE.pdf"
+      },
+      {
+        "label": "매뉴얼",
+        "file": "/downloads/AMPOULE_FURNACE_MANUAL.pdf"
+      }
+    ]
+  },
+  {
+    "id": "thermal-analysis-system",
+    "visible": true,
+    "status": "active",
+    "order": 5,
+    "name": "Thermal Analysis System",
+    "subtitle": "Using ampoule furnace",
+    "category": "Analysis",
+    "tags": [
+      "Thermal Analysis",
+      "Biologic",
+      "Ampoule Furnace"
+    ],
+    "inquirySubject": "[TeraLeader] Thermal Analysis System 제품 문의",
+    "summary": "Biologic 장비와 연동해 온도 응답 실험을 수행하는 열분석 시스템입니다.",
+    "description": "Biologic 장비의 전체 범위와 연계하여 온도 응답 실험을 수행할 수 있습니다.",
+    "image": "/images/products/thermal-analysis-system-clean.png",
+    "cardImage": "/images/products/thermal-analysis-card.gif",
+    "features": [
+      "Biologic equipment integration",
+      "Temperature response experiments",
+      "Ampoule furnace based analysis"
+    ],
+    "specs": [
+      {
+        "name": "Temperature Range",
+        "value": "RT +20 ~ 800°C, option 1050°C"
+      },
+      {
+        "name": "Atmosphere",
+        "value": "Inert, oxid, vacuum"
+      },
+      {
+        "name": "Linked Biologic Equipment",
+        "value": "Supported"
+      },
+      {
+        "name": "Temperature Resolution",
+        "value": "Max. 0.005°C"
+      },
+      {
+        "name": "Ampoule Diameter",
+        "value": "OD 14mm, ID 11mm"
+      },
+      {
+        "name": "Temperature Uniform Zone",
+        "value": "20mm"
+      },
+      {
+        "name": "Power Requirement",
+        "value": "1kW"
+      }
+    ],
+    "downloads": [
+      {
+        "label": "제품 자료",
+        "file": "/downloads/Thermal_Analysis_System.zip"
+      }
+    ]
+  },
+  {
+    "id": "tbs-system",
+    "visible": true,
+    "status": "active",
+    "order": 6,
+    "name": "TBS System",
+    "subtitle": "For activation energy",
+    "category": "Temperature control",
+    "tags": [
+      "TBS",
+      "Activation Energy",
+      "EC-Lab"
+    ],
+    "inquirySubject": "[TeraLeader] TBS System 제품 문의",
+    "summary": "Activation Energy 측정을 위한 온도 제어 시스템입니다.",
+    "description": "TBS 시스템은 테라리더 셀 지그 시스템과 호환되며, Biologic 장비의 EC-Lab 소프트웨어에서 온도 설정을 자동 제어할 수 있습니다.",
+    "image": "/images/products/tbs-system-clean.png",
+    "cardImage": "/images/products/tbs-system-card.gif",
+    "features": [
+      "Compatible with Teraleader cell jig system",
+      "EC-Lab temperature control",
+      "Activation energy measurement support"
+    ],
+    "specs": [
+      {
+        "name": "Temperature Range",
+        "value": "10 ~ 100°C, loadcell option 10 ~ 50°C"
+      },
+      {
+        "name": "Dimension",
+        "value": "260 x 215 x 280 mm (W x D x H)"
+      },
+      {
+        "name": "Linked Biologic Equipment",
+        "value": "Supported"
+      },
+      {
+        "name": "Temperature Resolution",
+        "value": "+/- 0.1°C"
+      },
+      {
+        "name": "Compatible Cell Jig",
+        "value": "Rail type Jig"
+      },
+      {
+        "name": "Power Requirement",
+        "value": "1kW"
+      }
+    ],
+    "downloads": [
+      {
+        "label": "제품 자료",
+        "file": "/downloads/TBS.zip"
+      }
+    ]
+  },
+  {
+    "id": "rtp-system",
+    "visible": false,
+    "status": "hidden",
+    "order": 7,
+    "name": "RTP SYSTEM",
+    "subtitle": "Reserved",
+    "category": "Legacy",
+    "tags": [
+      "Legacy"
+    ],
+    "inquirySubject": "[TeraLeader] RTP SYSTEM 제품 문의",
+    "summary": "구버전 자료에 남아 있는 비활성 제품입니다.",
+    "description": "새 사이트 공개 여부를 검토한 뒤 노출할 수 있습니다.",
+    "image": "",
+    "cardImage": "",
+    "features": [],
+    "specs": [],
+    "downloads": []
+  },
+  {
+    "id": "substrate-heater",
+    "visible": false,
+    "status": "hidden",
+    "order": 8,
+    "name": "SUBSTRATE HEATER",
+    "subtitle": "Reserved",
+    "category": "Legacy",
+    "tags": [
+      "Legacy"
+    ],
+    "inquirySubject": "[TeraLeader] SUBSTRATE HEATER 제품 문의",
+    "summary": "구버전 자료에 남아 있는 비활성 제품입니다.",
+    "description": "새 사이트 공개 여부를 검토한 뒤 노출할 수 있습니다.",
+    "image": "",
+    "cardImage": "",
+    "features": [],
+    "specs": [],
+    "downloads": []
+  }
+]

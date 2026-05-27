@@ -1,0 +1,62 @@
+{
+  "name": "TeraLeader",
+  "legalName": "주식회사 테라리더",
+  "tagline": "배터리·전기화학 연구를 위한 정밀 실험 장비와 분석 솔루션",
+  "summary": "테라리더는 연구 현장에서 필요한 셀 지그, 온도 제어, 압력 제어, 열분석 장비를 설계하고 제작하는 기술 기반 기업입니다.",
+  "address": "대전광역시 유성구 테크노 4로 17 B 621호",
+  "tel": "042-368-1399",
+  "fax": "042-368-1398",
+  "email": "teraleader@gmail.com",
+  "copyright": "Copyright (c) TeraLeader. All rights reserved.",
+  "history": [
+    {
+      "year": "2011",
+      "items": [
+        "Graphene RTCVD 개발 및 주요 연구기관·기업 납품"
+      ]
+    },
+    {
+      "year": "2010",
+      "items": [
+        "전기연구원 고전계 양극산화 장치기술 기술이전",
+        "서울시 산학연 협력사업 진행",
+        "LG화학 TCVD 시스템 납품",
+        "삼성종합기술원 RF 스퍼터 시스템 납품"
+      ]
+    },
+    {
+      "year": "2009",
+      "items": [
+        "Electro spinning 기술 이전",
+        "테라리더 대전사업장 설립"
+      ]
+    },
+    {
+      "year": "2007",
+      "items": [
+        "한국전기연구원 협력업체 등록",
+        "나노 와이어 제조 장비 개발 및 KERI 납품",
+        "MTI 공급계약 체결"
+      ]
+    },
+    {
+      "year": "2006",
+      "items": [
+        "주식회사 테라리더 설립",
+        "한국전자통신연구원 협력업체 등록"
+      ]
+    }
+  ],
+  "businessAreas": [
+    "나노소재",
+    "인쇄전자",
+    "R&D 장비제조"
+  ],
+  "technologies": [
+    "Electrospinning/spray 방식의 나노코팅 기술",
+    "나노코팅, 나노와이어, 미세패턴 인쇄기술",
+    "고속 양극산화 나노 멤브레인 제조기술",
+    "VO2 RF Sputtering 시스템 개발",
+    "Thermal CVD for Graphene 시스템 개발"
+  ]
+}
