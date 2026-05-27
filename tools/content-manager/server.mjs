@@ -67,7 +67,8 @@ function readBody(req) {
     req.on('data', (chunk) => chunks.push(chunk));
     req.on('end', () => {
       try {
-        resolve(JSON.parse(Buffer.concat(chunks).toString('utf8') || 'null'));
+        const body = new TextDecoder('utf-8', { fatal: true }).decode(Buffer.concat(chunks));
+        resolve(JSON.parse(body || 'null'));
       } catch (error) {
         reject(error);
       }
@@ -354,8 +355,8 @@ function renderApp() {
     async function saveAll() {
       products.sort((a, b) => Number(a.order || 0) - Number(b.order || 0));
       await Promise.all([
-        fetch('/api/products', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(products) }),
-        fetch('/api/company', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(company) })
+        fetch('/api/products', { method: 'POST', headers: { 'Content-Type': 'application/json; charset=utf-8' }, body: JSON.stringify(products) }),
+        fetch('/api/company', { method: 'POST', headers: { 'Content-Type': 'application/json; charset=utf-8' }, body: JSON.stringify(company) })
       ]);
     }
 
